@@ -23,7 +23,7 @@ const HomeScreen = () => {
             marginBottom: 20,
           }}>
           <Text style={{ fontSize: 18, fontFamily: 'SourceSansPro-SemiBold' }}>
-            Hello Kunal Nayek
+            Hello Kunal
           </Text>
           <ImageBackground
             source={require('../assets/images/user-profile.jpg')}
