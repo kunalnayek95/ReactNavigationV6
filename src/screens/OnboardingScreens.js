@@ -43,7 +43,7 @@ const OnboardingScreens = ({ navigation }) => {
           />
           <TouchableOpacity
             onPress={() => {
-              navigation.navigate('Login');
+              navigation.navigate('AppStack');
             }}
             style={{
               marginBottom: 15,

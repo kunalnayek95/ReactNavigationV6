@@ -42,7 +42,7 @@ const HomeScreen = ({ navigation }) => {
           <Text style={{ fontSize: 18, fontFamily: 'SourceSansPro-SemiBold' }}>
             Hello Kunal
           </Text>
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity onPress={() => navigation.openDrawer()}>
             <ImageBackground
               source={require('../assets/images/user-profile.jpg')}
               style={{ width: 40, height: 40 }}
