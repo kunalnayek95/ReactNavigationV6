@@ -51,6 +51,7 @@ const AppStack = () => {
         name="Moments"
         component={Moments}
         options={{
+          headerShown: true,
           drawerIcon: ({ color }) => (
             <Ionicons name="timer-outline" size={22} color={color} />
           ),
